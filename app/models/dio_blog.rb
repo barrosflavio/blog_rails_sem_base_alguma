@@ -1,0 +1,2 @@
+class DioBlog < ApplicationRecord
+end

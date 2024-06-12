@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @dio_blog %>
+
+<div>
+  <%= link_to "Editar este livro", edit_dio_blog_path(@dio_blog) %> |
+  <%= link_to "Voltar para livros favoritos", dio_blogs_path %>
+
+  <%= button_to "Apagar este livro", @dio_blog, method: :delete %>
+</div>
